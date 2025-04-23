@@ -1,0 +1,27 @@
+.home-description {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.home-description img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.home-description p {
+  font-size: 0.8rem;
+  line-height: 1.2;
+  text-align: justify;
+  border: 2px solid #ebd9a9;
+  border-radius: 80px;
+  padding: 50px 30px;
+  background-color: #ebd9a9;
+  margin: 10px;
+}
+
+.home-images {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
