@@ -4,3 +4,12 @@
   box-sizing: border-box;
   background-color: #faf3e0;
 }
+
+@font-face {
+  font-family: "Lisu Bosa";
+  src: url("../assets/fonts/LisuBosa.ttf");
+}
+
+body {
+  font-family: "Lisu Bosa", sans-serif;
+}
