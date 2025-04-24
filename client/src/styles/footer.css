@@ -4,19 +4,19 @@ footer {
   align-items: center;
   background-color: #800020;
   font-size: 0.7rem;
-  color: aliceblue;
+  color: white;
   padding: 1em;
   margin: 0;
 }
 
 .logoFooter {
   width: 100px;
+  margin: -10px;
 }
 
 .logoFooter img {
   width: 100%;
   background-color: #800020;
-  margin: 0;
 }
 
 footer p {
@@ -29,17 +29,17 @@ footer div {
   flex-direction: row;
   justify-content: center;
   background-color: #800020;
-  gap: 10px;
-  margin-bottom: 1em;
+  gap: 5px;
 }
 
 footer span {
   background-color: #800020;
-  color: aliceblue;
+  color: white;
 }
 
 footer a {
-  color: aliceblue;
+  color: white;
   text-decoration: none;
   background-color: #800020;
+  margin: 0;
 }
