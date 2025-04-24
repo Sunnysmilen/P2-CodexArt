@@ -1,0 +1,26 @@
+.erreur {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .erreur {
+    display: block;
+    content: url("../assets/images/404.jpeg");
+    height: 30rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .erreur {
+    display: block;
+    content: url("../assets/images/404-tablette.jpeg");
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .erreur {
+    display: block;
+    content: url("../assets/images/404-desktop.jpeg");
+    width: 100%;
+  }
+}

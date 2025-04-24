@@ -8,6 +8,7 @@ import { RouterProvider, createBrowserRouter } from "react-router";
 // Import the main app component
 import App from "./App";
 import Home from "./pages/Home";
+import Page404 from "./pages/Page404";
 
 // Import additional components for new routes
 // Try creating these components in the "pages" folder
@@ -22,7 +23,10 @@ import Home from "./pages/Home";
 const router = createBrowserRouter([
   {
     element: <App />,
-    children: [{ path: "/", element: <Home /> }],
+    children: [
+      { path: "/", element: <Home /> },
+      { path: "*", element: <Page404 /> },
+    ],
   },
 ]);
 
@@ -39,7 +43,7 @@ if (rootElement == null) {
 createRoot(rootElement).render(
   <StrictMode>
     <RouterProvider router={router} />
-  </StrictMode>,
+  </StrictMode>
 );
 
 /**
