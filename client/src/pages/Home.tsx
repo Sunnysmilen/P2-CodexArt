@@ -1,7 +1,33 @@
 import Devanture from "../assets/images/Devanture.png";
 import "../styles/home.css";
+import { useEffect, useState } from "react";
+
+type imageType = {
+  image_id: string;
+  title: string;
+};
 
 const Home = () => {
+  const [unavoidable, setUnavoidable] = useState<imageType[]>([]);
+  const [draw, setDraw] = useState(0);
+
+  useEffect(() => {
+    fetch("https://api.artic.edu/api/v1/artworks?page=4&limit=5")
+      .then((response) => response.json())
+      .then((data) => setUnavoidable(data.data))
+      .catch(() => {
+        "Erreur lors du chargement";
+      });
+  }, []);
+
+  useEffect(() => {
+    if (unavoidable.length > 0) {
+      const painting = (draw + 1) % unavoidable.length;
+      const defilement = setInterval(() => setDraw(painting), 4000);
+      return () => clearInterval(defilement);
+    }
+  });
+
   return (
     <>
       <div className="home-description">
@@ -29,6 +55,15 @@ const Home = () => {
 
       <div className="home-images">
         <h1>Nos incontournables</h1>
+        <div>
+          {unavoidable.length > 0 && (
+            <img
+              className="caroussel"
+              src={`https://www.artic.edu/iiif/2/${unavoidable[draw].image_id}/full/300,/0/default.jpg`}
+              alt={unavoidable[draw].title}
+            />
+          )}
+        </div>
       </div>
     </>
   );
