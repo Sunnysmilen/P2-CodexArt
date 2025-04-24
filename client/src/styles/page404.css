@@ -4,7 +4,7 @@
 @media screen and (max-width: 768px) {
   .erreur {
     display: block;
-    content: url("../assets/images/404.jpeg");
+    content: url("../assets/images/404-mobile.jpeg");
     height: 30rem;
   }
 }
