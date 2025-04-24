@@ -10,6 +10,10 @@ type imageType = {
 const Home = () => {
   const [unavoidable, setUnavoidable] = useState<imageType[]>([]);
   const [draw, setDraw] = useState(0);
+  const imageUrl =
+    unavoidable.length > 0
+      ? `https://www.artic.edu/iiif/2/${unavoidable[draw].image_id}/full/300,/0/default.jpg`
+      : "";
 
   useEffect(() => {
     fetch("https://api.artic.edu/api/v1/artworks?page=4&limit=5")
@@ -26,7 +30,7 @@ const Home = () => {
       const defilement = setInterval(() => setDraw(painting), 4000);
       return () => clearInterval(defilement);
     }
-  });
+  }, [draw, unavoidable]);
 
   return (
     <>
@@ -59,7 +63,7 @@ const Home = () => {
           {unavoidable.length > 0 && (
             <img
               className="caroussel"
-              src={`https://www.artic.edu/iiif/2/${unavoidable[draw].image_id}/full/300,/0/default.jpg`}
+              src={imageUrl}
               alt={unavoidable[draw].title}
             />
           )}
