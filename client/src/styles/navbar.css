@@ -9,10 +9,11 @@
   display: flex;
   text-align: center;
   align-items: center;
+  color: white;
 }
 .Logo {
   background-color: #800020;
-  width: 100%;
+  width: 65%;
 }
 
 a {
@@ -22,8 +23,4 @@ a {
   text-decoration: none;
   margin: 8px;
   padding: 2px;
-}
-
-.logo {
-  width: 25%;
 }
