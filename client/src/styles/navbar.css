@@ -1,0 +1,26 @@
+.navbar {
+  background-color: #800020;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navlinks {
+  background-color: #800020;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  color: white;
+}
+.Logo {
+  background-color: #800020;
+  width: 65%;
+}
+
+a {
+  background-color: #800020;
+  color: white;
+  font-size: 0.7rem;
+  text-decoration: none;
+  margin: 8px;
+  padding: 2px;
+}
