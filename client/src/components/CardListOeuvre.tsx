@@ -16,7 +16,7 @@ function cardListOeuvre() {
     fetch("https://api.artic.edu/api/v1/artworks?page=3&limit=50")
       .then((response) => response.json())
       .then((data) => setWorks(data.data))
-      .catch(() => "Error page");
+      .catch(() => {"Erreur lors du chargement"});
   }, []);
   return (
     <>
