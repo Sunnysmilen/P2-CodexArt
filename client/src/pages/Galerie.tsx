@@ -1,5 +1,11 @@
+import CardListOeuvre from "../components/CardListOeuvre";
+
 function galerie() {
-  return;
+  return (
+    <div>
+      <CardListOeuvre />
+    </div>
+  );
 }
 
 export default galerie;
