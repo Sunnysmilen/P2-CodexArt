@@ -18,7 +18,7 @@ function cardListOeuvre() {
       .then((data) => setWorks(data.data))
       .catch(() => {
         "Erreur lors du chargement";
-                   });
+      });
   }, []);
   return (
     <>
