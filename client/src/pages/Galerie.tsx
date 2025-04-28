@@ -1,5 +1,5 @@
 function galerie() {
-  return <div></div>;
+  return;
 }
 
 export default galerie;
