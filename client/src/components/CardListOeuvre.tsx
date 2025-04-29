@@ -19,7 +19,7 @@ function cardListOeuvre() {
   const extractedArts = [...uniqueSet];
 
   useEffect(() => {
-    fetch("https://api.artic.edu/api/v1/artworks?page=1&limit=30")
+    fetch("https://api.artic.edu/api/v1/artworks?page=2&limit=30")
       .then((response) => response.json())
       .then((data) => setWorks(data.data))
       .catch(() => {
@@ -34,8 +34,10 @@ function cardListOeuvre() {
       <div className="filterContainer">
         {extractedArts.map((e) => (
           <button
+            type="button"
             className="filterButton"
-            onClick={() => setFilter(works.filter((w) => w.artist_title == e))}
+            key={e}
+            onClick={() => setFilter(works.filter((w) => w.artist_title === e))}
           >
             {e}
           </button>
