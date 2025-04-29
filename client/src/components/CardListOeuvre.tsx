@@ -3,6 +3,7 @@ import CardOeuvre from "./CardOeuvre";
 import "../styles/galerie.css";
 
 type workType = {
+  category: unknown;
   id: number;
   title: string;
   artist_title: string;
@@ -16,26 +17,31 @@ function cardListOeuvre() {
 
   const uniqueSet = new Set(categories);
   const extractedArts = [...uniqueSet];
-  const [card, setCard] = useState;
 
   useEffect(() => {
-    fetch("https://api.artic.edu/api/v1/artworks?page=3&limit=50")
+    fetch("https://api.artic.edu/api/v1/artworks?page=1&limit=30")
       .then((response) => response.json())
       .then((data) => setWorks(data.data))
-      .catch(() => "Error page");
+      .catch(() => {
+        "Erreur lors du chargement";
+      });
   }, []);
+
   return (
     <>
+      {" "}
+      <h2>Exposition</h2>
+      <div className="filterContainer">
+        {extractedArts.map((e) => (
+          <button
+            className="filterButton"
+            onClick={() => setFilter(works.filter((w) => w.artist_title == e))}
+          >
+            {e}
+          </button>
+        ))}
+      </div>
       <div>
-        <label>
-          Découvrez un artiste :
-          <select onChange={(e) => setFilter(e.target.value)}>
-            <option value="">-- Choississez --</option>
-            {extractedArts.map((artist_title) => (
-              <option>{artist_title}</option>
-            ))}
-          </select>
-        </label>
         {(filter.length > 0 ? filter : works).map((w) => (
           <CardOeuvre
             key={w.id}
@@ -45,7 +51,7 @@ function cardListOeuvre() {
             image_id={w.image_id}
           />
         ))}
-      </div>{" "}
+      </div>
     </>
   );
 }
