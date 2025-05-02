@@ -30,18 +30,16 @@ function CardListMuseum() {
 
     const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
         setSearch(e.target.value);
-        console.log(e.target);
     };
-    console.log(search);
 
     return (
-        <div className="musées">
+        <div className="museum">
             <h1>Musées</h1>
             <img src={cadre} alt="vue d'un musée au travers d'un cadre" />
             <p>
                 {" "}
                 Parfois, il suffit de pousser une porte pour voyager à travers les
-                siècles. Les musées ne sont pas que des lieux figés — ce sont des
+                siècles. Les musées ne sont pas que des lieux figés, ce sont des
                 fenêtres ouvertes sur le monde, des instants suspendus où l’on apprend,
                 on ressent, on s’émerveille. Sortir, c’est s’offrir une pause hors du
                 temps, une respiration culturelle. Alors prenez le temps… laissez-vous
@@ -65,7 +63,7 @@ function CardListMuseum() {
                             <Link to={`https://${val.url}`} target="_blank">
                                 🖼️ Lien vers le musée
                             </Link>
-                            <br />
+
                             <Link
                                 to={`https://google.fr/maps?q=${val.latitude},${val.longitude}`}
                                 target="_blank"
