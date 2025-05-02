@@ -3,7 +3,6 @@ import CardOeuvre from "./CardOeuvre";
 import "../styles/galerie.css";
 
 type workType = {
-  category: unknown;
   id: number;
   title: string;
   artist_title: string;
