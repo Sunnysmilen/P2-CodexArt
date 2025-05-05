@@ -44,3 +44,59 @@ input:focus {
   display: flex;
   flex-direction: column;
 }
+@media screen and (min-width: 992px) {
+  .museum h1 {
+    font-size: 2.5rem;
+    padding: 0.5em;
+  }
+  .museum img {
+    width: 50%;
+  }
+  .museum p {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 2em;
+  }
+
+  .filter {
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+  }
+
+  input {
+    padding: 0.5em;
+    padding-right: 2.5em;
+    border-radius: 1em;
+    border: solid 1px #800020;
+    font-size: 1.5rem;
+    width: 40%;
+  }
+
+  input:focus {
+    outline: none;
+  }
+
+  ::placeholder {
+    font-size: 1em;
+  }
+  .filter {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .filter p {
+    border-radius: 2em;
+    margin: 1em;
+    padding: 1em;
+    width: 40%;
+  }
+
+  .filter a {
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+  }
+}

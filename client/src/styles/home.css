@@ -33,3 +33,31 @@
   background: #faf3e0;
   box-shadow: inset 15px 15px 30px #a8a396, inset -15px -15px 30px #ffffff;
 }
+@media screen and (min-width: 992px) {
+  .home-description img {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .home-description p {
+    font-size: 2rem;
+    padding: 2em;
+  }
+
+  .home-images {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    align-items: center;
+  }
+  .carrousel_container {
+    justify-content: center;
+    width: 25%;
+  }
+
+  .caroussel {
+    font-size: 2rem;
+    width: 80%;
+  }
+}

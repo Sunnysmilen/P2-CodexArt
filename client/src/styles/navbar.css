@@ -24,3 +24,21 @@ a {
   margin: 8px;
   padding: 2px;
 }
+@media screen and (min-width: 992px) {
+  .navbar {
+    font-size: 2rem;
+  }
+
+  .Logo {
+    width: 50%;
+  }
+
+  .navlinks {
+    padding-right: 2.5em;
+  }
+
+  .navlinks a {
+    font-size: 1.8rem;
+    padding: 1em;
+  }
+}
