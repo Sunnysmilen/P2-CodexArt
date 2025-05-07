@@ -41,7 +41,8 @@
 
   .home-description p {
     font-size: 2rem;
-    padding: 2em;
+    padding: 1.5em;
+    margin: 1.5em;
   }
 
   .home-images {
@@ -53,11 +54,11 @@
   }
   .carrousel_container {
     justify-content: center;
-    width: 25%;
+    width: 45%;
   }
 
   .caroussel {
     font-size: 2rem;
-    width: 80%;
+    width: 100%;
   }
 }
