@@ -60,6 +60,7 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     padding: 1rem;
+    justify-content: center;
   }
   .filterContainer {
     display: flex;
