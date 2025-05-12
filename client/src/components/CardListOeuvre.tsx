@@ -28,19 +28,25 @@ function cardListOeuvre() {
 
   return (
     <>
-      {" "}
       <h2>Exposition</h2>
       <div className="filterContainer">
-        {extractedArts.map((e) => (
-          <button
-            type="button"
-            className="filterButton"
-            key={e}
-            onClick={() => setFilter(works.filter((w) => w.artist_title === e))}
-          >
-            {e}
-          </button>
-        ))}
+        <select
+          onChange={(e) =>
+            setFilter(
+              e.target.value
+                ? works.filter((w) => w.artist_title === e.target.value)
+                : works,
+            )
+          }
+        >
+          <option value=""> -- Sélectionner votre artiste -- </option>
+          {extractedArts.map((a) => (
+            <option key={a} value={a}>
+              {" "}
+              {a}
+            </option>
+          ))}
+        </select>
       </div>
       <div>
         {(filter.length > 0 ? filter : works).map((w) => (
