@@ -3,10 +3,13 @@ import CardOeuvre from "./CardOeuvre";
 import "../styles/galerie.css";
 
 type workType = {
-  id: number;
-  title: string;
-  artist_title: string;
-  image_id: string;
+  id?: number;
+  title?: string;
+  artist_title?: string;
+  image_id?: string;
+  date_start?: number;
+  category_titles?: string;
+  thumbnail?: { alt_text?: string };
 };
 
 function cardListOeuvre() {
@@ -50,6 +53,9 @@ function cardListOeuvre() {
             artist_title={w.artist_title}
             title={w.title}
             image_id={w.image_id}
+            category_titles={w.category_titles}
+            date_start={w.date_start}
+            thumbnail={w.thumbnail}
           />
         ))}
       </div>
