@@ -1,13 +1,3 @@
-.arts {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 1rem;
-  border: 2px solid;
-  border-radius: 3em;
-  margin: 1rem;
-}
-
 .arts img {
   width: 100%;
   border-radius: 1em;
@@ -33,6 +23,46 @@ h2 {
   padding: 0.5rem;
   border-radius: 25px;
   background-color: #f4a100;
+}
+
+.card {
+  height: 500px;
+  width: 350px;
+  perspective: 500px;
+  margin: 10px;
+  padding: 20px;
+}
+
+.card-inner {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  transition: transform 1500ms;
+  transform-style: preserve-3d;
+}
+
+.card:hover > .card-inner {
+  transform: rotateY(180deg);
+}
+
+.arts,
+.arts-back {
+  height: 100%;
+  width: 100%;
+  border-radius: 2rem;
+  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.arts-back {
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 10px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
