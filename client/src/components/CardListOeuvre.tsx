@@ -45,7 +45,7 @@ function cardListOeuvre() {
           </button>
         ))}
       </div>
-      <div>
+      <div className="cards">
         {(filter.length > 0 ? filter : works).map((w) => (
           <CardOeuvre
             key={w.id}

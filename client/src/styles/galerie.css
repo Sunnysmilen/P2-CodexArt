@@ -64,3 +64,45 @@ h2 {
   gap: 2rem;
   padding: 10px;
 }
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  h2 {
+    font-size: 2rem;
+  }
+  .arts {
+    width: 45%;
+  }
+  .arts h2 {
+    font-size: 1.5rem;
+  }
+
+  .arts img {
+    width: 80%;
+    padding: 0.5em;
+  }
+
+  .arts p {
+    font-size: 1.2rem;
+    padding: 1rem;
+    text-align: center;
+  }
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    justify-content: center;
+  }
+  .filterContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 4em 0 5em;
+  }
+
+  .filterButton {
+    width: 30%;
+    padding: 0.5rem;
+    background-color: #f4a100;
+    font-size: 1rem;
+  }
+}

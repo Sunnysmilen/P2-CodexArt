@@ -43,3 +43,23 @@ footer a {
   background-color: #800020;
   margin: 0;
 }
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  footer {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
+  .logoFooter {
+    width: 22%;
+  }
+
+  footer span {
+    font-size: 1rem;
+  }
+  footer a {
+    font-size: 1rem;
+  }
+  footer p {
+    margin: 1em 0;
+  }
+}
