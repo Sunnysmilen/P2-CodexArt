@@ -33,6 +33,32 @@
   background: #faf3e0;
   box-shadow: inset 15px 15px 30px #a8a396, inset -15px -15px 30px #ffffff;
 }
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .home-description p {
+    font-size: 1.5rem;
+    line-height: 1.3;
+    border: 3px solid #ebd9a9;
+    padding: 50px 60px;
+    margin: 50px;
+  }
+  .home-description {
+    object-fit: contain;
+  }
+
+  .home-images {
+    font-size: 1rem;
+  }
+  .home-description img {
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .caroussel {
+    width: 70%;
+    margin: 20px;
+    box-shadow: inset 15px 15px 30px #a8a396, inset -15px -15px 30px #ffffff;
+  }
+}
 @media screen and (min-width: 992px) {
   .home-description img {
     width: 100%;

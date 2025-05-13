@@ -1,13 +1,3 @@
-.arts {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 1rem;
-  border: 2px solid;
-  border-radius: 3em;
-  margin: 1rem;
-}
-
 .arts img {
   width: 100%;
   border-radius: 1em;
@@ -33,6 +23,88 @@ h2 {
   padding: 0.5rem;
   border-radius: 25px;
   background-color: #f4a100;
+}
+
+.card {
+  height: 500px;
+  width: 350px;
+  perspective: 500px;
+  margin: 10px;
+  padding: 20px;
+}
+
+.card-inner {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  transition: transform 1500ms;
+  transform-style: preserve-3d;
+}
+
+.card:hover > .card-inner {
+  transform: rotateY(180deg);
+}
+
+.arts,
+.arts-back {
+  height: 100%;
+  width: 100%;
+  border-radius: 2rem;
+  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.arts-back {
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 10px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  h2 {
+    font-size: 2rem;
+  }
+  .arts {
+    width: 45%;
+  }
+  .arts h2 {
+    font-size: 1.5rem;
+  }
+
+  .arts img {
+    width: 80%;
+    padding: 0.5em;
+  }
+
+  .arts p {
+    font-size: 1.2rem;
+    padding: 1rem;
+    text-align: center;
+  }
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    justify-content: center;
+  }
+  .filterContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 4em 0 5em;
+  }
+
+  .filterButton {
+    width: 30%;
+    padding: 0.5rem;
+    background-color: #f4a100;
+    font-size: 1rem;
+  }
 }
 @media screen and (min-width: 992px) {
   .cards {
