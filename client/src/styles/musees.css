@@ -94,3 +94,59 @@ input:focus {
     padding: 0.2em;
   }
 }
+@media screen and (min-width: 992px) {
+  .museum h1 {
+    font-size: 2.5rem;
+    padding: 0.5em;
+  }
+  .museum img {
+    width: 50%;
+  }
+  .museum p {
+    text-align: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    margin: 2.5em;
+  }
+
+  .filter {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    font-size: 1.5rem;
+  }
+
+  input {
+    padding: 0.5em;
+    padding-right: 2.5em;
+    border-radius: 1em;
+    border: solid 1px #800020;
+    font-size: 1.5rem;
+    width: 40%;
+  }
+
+  input:focus {
+    outline: none;
+  }
+
+  ::placeholder {
+    font-size: 1em;
+  }
+
+  .filter p {
+    border-radius: 2em;
+    margin: 1em;
+    padding: 1em;
+    width: 40%;
+  }
+
+  .filter a {
+    border-radius: 2em;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+}

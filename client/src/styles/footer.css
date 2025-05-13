@@ -63,3 +63,25 @@ footer a {
     margin: 1em 0;
   }
 }
+@media screen and (min-width: 992px) {
+  .logoFooter {
+    width: 10%;
+    margin: -10px;
+  }
+
+  footer p {
+    font-size: 1.5rem;
+  }
+
+  footer div {
+    font-size: 1.5rem;
+  }
+
+  footer span {
+    font-size: 1.5rem;
+  }
+
+  footer a {
+    font-size: 1.5rem;
+  }
+}

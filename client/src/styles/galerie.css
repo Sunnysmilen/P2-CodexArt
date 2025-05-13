@@ -106,3 +106,41 @@ h2 {
     font-size: 1rem;
   }
 }
+@media screen and (min-width: 992px) {
+  .cards {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .arts {
+    display: flex;
+    width: 25%;
+    font-size: 1rem;
+    padding: 1em;
+  }
+
+  .arts p {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 0.5em;
+  }
+
+  .filterContainer {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .filterButton {
+    font-size: 1.5rem;
+    width: 20%;
+    padding: 1rem;
+  }
+}

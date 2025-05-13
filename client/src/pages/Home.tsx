@@ -59,7 +59,7 @@ const Home = () => {
 
       <div className="home-images">
         <h1>Nos incontournables</h1>
-        <div>
+        <div className="carrousel_container">
           {unavoidable.length > 0 && (
             <img
               className="caroussel"
