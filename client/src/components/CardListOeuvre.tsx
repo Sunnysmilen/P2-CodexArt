@@ -34,8 +34,8 @@ function cardListOeuvre() {
           onChange={(e) =>
             setFilter(
               e.target.value
-                ? works.filter((w) => w.artist_title === e.target.value)
-                : works,
+                ? works.filter((w) => w.artist_title.includes(e.target.value))
+                : works
             )
           }
         >
