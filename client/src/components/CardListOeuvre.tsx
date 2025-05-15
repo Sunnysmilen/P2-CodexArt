@@ -6,7 +6,7 @@ import { useTranslation } from "../contexts/LocaleContext";
 type workType = {
   id?: number;
   title?: string;
-  artist_title?: string;
+  artist_title: string;
   image_id?: string;
   date_start?: number;
   category_titles?: string;
@@ -37,16 +37,23 @@ function cardListOeuvre() {
       {" "}
       <h2>{translations.galerie.exposition}</h2>
       <div className="filterContainer">
-        {extractedArts.map((e) => (
-          <button
-            type="button"
-            className="filterButton"
-            key={e}
-            onClick={() => setFilter(works.filter((w) => w.artist_title === e))}
-          >
-            {e}
-          </button>
-        ))}
+        <select
+          onChange={(e) =>
+            setFilter(
+              e.target.value
+                ? works.filter((w) => w.artist_title.includes(e.target.value))
+                : works,
+            )
+          }
+        >
+          <option value=""> -- Sélectionner votre artiste -- </option>
+          {extractedArts.map((a) => (
+            <option key={a} value={a}>
+              {" "}
+              {a}
+            </option>
+          ))}
+        </select>
       </div>
       <div className="cards">
         {(filter.length > 0 ? filter : works).map((w) => (
