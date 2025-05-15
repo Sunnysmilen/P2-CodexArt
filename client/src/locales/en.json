@@ -1,0 +1,29 @@
+{
+  "navbar": {
+    "home": "Home",
+    "gallery": "Gallery",
+    "museums": "Museums",
+    "contact": "Contact"
+  },
+
+  "homepage": {
+    "incontournable": "Our Highlights",
+    "paragraph": "Founded in 2019, Codex Art Gallery was born from a deep desire to actively contribute to the development of artistic culture, creating a bridge between the past and the present. Located in the heart of the city, it aims to be a place of exchange, discovery, and transmission, dedicated to all art enthusiasts, whether curious amateurs or seasoned collectors.\n\nCodex Art's mission is twofold: to promote contemporary art by highlighting emerging and established artists, and to celebrate artistic heritage by showcasing older works, sometimes unknown to the general public. Through this approach, the gallery allows everyone to better understand the evolution of styles, techniques, and artistic sensibilities across different eras. Each exhibition is designed as an invitation to explore art history in all its forms, linking the works of the past with those of today.\n\nMore than just an exhibition space, Codex Art is a lively place, a cultural crossroads where talents, ideas, and perspectives meet, in the service of beauty and reflection."
+  },
+
+  "galerie": {
+    "exposition": "exhibition"
+  },
+
+  "musées": {
+    "titre": "museums",
+    "texte": "Sometimes, all it takes is to push open a door to travel through the centuries. Museums are not just static places; they are open windows to the world, suspended moments where we learn, feel, and marvel. Going out is offering yourself a timeless pause, a cultural breath. So take the time… let yourself be surprised, be inspired. Art is waiting for you. Go to the museum...",
+    "recherche": "🔎Search by department"
+  },
+
+  "footer": {
+    "copyright": "© 2025 Codex Art",
+    "mentions_légales": "Legal Notice",
+    "politique_de_confidentialité": "Privacy Policy"
+  }
+}
