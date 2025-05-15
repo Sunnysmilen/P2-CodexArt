@@ -7,11 +7,11 @@ import { RouterProvider, createBrowserRouter } from "react-router";
 
 // Import the main app component
 import App from "./App";
+import Form from "./pages/Form";
 import Galerie from "./pages/Galerie";
 import Home from "./pages/Home";
 import Musees from "./pages/Musees";
 import Page404 from "./pages/Page404";
-import Form from "./pages/Form";
 
 // Import additional components for new routes
 // Try creating these components in the "pages" folder
