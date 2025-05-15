@@ -1,6 +1,6 @@
 export type LocaleType = {
-  lang:"fr"|"en"|"es";
-  testLanguage: (lang:"fr"|"en"|"es") => void;
+  lang: "fr" | "en" | "es";
+  testLanguage: (lang: "fr" | "en" | "es") => void;
   translations: TranslationsType;
 };
 
