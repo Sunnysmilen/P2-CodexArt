@@ -16,12 +16,10 @@ export default function Footer() {
       <p>&copy; 2025 - Codex Art </p>
       <div>
         <p>{translations.footer.mentions_légales}</p> -
-
         <Link to="https://www.economie.gouv.fr/politique-confidentialite">
           {translations.footer.politique_de_confidentialité}
         </Link>
-
       </div>
-    </footer >
+    </footer>
   );
 }
