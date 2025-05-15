@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router";
 import cadre from "../assets/images/cadre musee.jpg";
 import "../styles/musees.css";
+import { useTranslation } from "../contexts/LocaleContext";
 
 type museumType = {
   id: string;
@@ -32,22 +33,16 @@ function CardListMuseum() {
     setSearch(e.target.value);
   };
 
+  const { translations } = useTranslation();
+
   return (
     <div className="museum">
-      <h1>Musées</h1>
+      <h1>{translations.musées.titre}</h1>
       <img src={cadre} alt="vue d'un musée au travers d'un cadre" />
-      <p>
-        {" "}
-        Parfois, il suffit de pousser une porte pour voyager à travers les
-        siècles. Les musées ne sont pas que des lieux figés, ce sont des
-        fenêtres ouvertes sur le monde, des instants suspendus où l’on apprend,
-        on ressent, on s’émerveille. Sortir, c’est s’offrir une pause hors du
-        temps, une respiration culturelle. Alors prenez le temps… laissez-vous
-        surprendre, inspirez-vous. L’art n’attend que vous. Allez au musée...
-      </p>
+      <p> {translations.musées.texte}</p>
       <input
         type="text"
-        placeholder="🔎Recherche du département"
+        placeholder={translations.musées.recherche}
         value={search}
         onChange={handleSearch}
       />
