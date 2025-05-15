@@ -35,7 +35,7 @@ function cardListOeuvre() {
             setFilter(
               e.target.value
                 ? works.filter((w) => w.artist_title.includes(e.target.value))
-                : works
+                : works,
             )
           }
         >
