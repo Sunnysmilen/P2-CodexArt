@@ -25,6 +25,28 @@ a {
   padding: 2px;
 }
 
+.world {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  display: flex;
+  gap: 3px;
+  background-color: #800020;
+}
+
+.world button {
+  background-color: #800020;
+  border-radius: 5px;
+  padding: 0px 5px;
+  font-size: 0.8rem;
+  border: none;
+}
+
+.world img {
+  background-color: #800020;
+  width: 1.5em;
+}
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .Logo {
     width: 35%;
@@ -32,6 +54,28 @@ a {
 
   a {
     font-size: 1.2rem;
+  }
+
+  .world {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    gap: 3px;
+    background-color: #800020;
+  }
+
+  .world button {
+    background-color: #800020;
+    border-radius: 5px;
+    padding: 0px 5px;
+    font-size: 0.8rem;
+    border: none;
+  }
+
+  .world img {
+    background-color: #800020;
+    width: 2.5em;
   }
 }
 @media screen and (min-width: 992px) {
@@ -43,12 +87,30 @@ a {
     width: 50%;
   }
 
-  .navlinks {
-    padding-right: 2.5em;
-  }
-
   .navlinks a {
     font-size: 1.8rem;
     padding: 1em;
+  }
+
+  .world {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    gap: 3px;
+    background-color: #800020;
+  }
+
+  .world button {
+    background-color: #800020;
+    border-radius: 5px;
+    padding: 0px 5px;
+    font-size: 0.8rem;
+    border: none;
+  }
+
+  .world img {
+    background-color: #800020;
+    width: 2.5em;
   }
 }

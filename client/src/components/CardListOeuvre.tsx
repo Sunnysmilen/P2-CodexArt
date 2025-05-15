@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import CardOeuvre from "./CardOeuvre";
 import "../styles/galerie.css";
+import { useTranslation } from "../contexts/LocaleContext";
 
 type workType = {
   id?: number;
@@ -29,10 +30,12 @@ function cardListOeuvre() {
       });
   }, []);
 
+  const { translations } = useTranslation();
+
   return (
     <>
       {" "}
-      <h2>Exposition</h2>
+      <h2>{translations.galerie.exposition}</h2>
       <div className="filterContainer">
         {extractedArts.map((e) => (
           <button
