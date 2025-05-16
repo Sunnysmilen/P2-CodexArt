@@ -1,5 +1,6 @@
 # 🖼️CodexArt
-<img src="https://github.com/user-attachments/assets/d3618667-1581-40e5-a900-121992d21e7f" width="100" height="100" alt="Logo CodexArt">
+<img src="https://github.com/user-attachments/assets/d3618667-1581-40e5-a900-121992d21e7f" width="300" height="300" alt="Logo CodexArt">
+
 ## ☰ Table des Matières
 - [CodexArt](#name)
   - [Description](#description)
