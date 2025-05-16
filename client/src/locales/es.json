@@ -1,0 +1,39 @@
+{
+  "navbar": {
+    "home": "Inicio",
+    "gallery": "Galería",
+    "museums": "Museos",
+    "contact": "Contacto"
+  },
+
+  "homepage": {
+    "incontournable": "Nuestros imprescindibles",
+    "paragraph": "Fundada en 2019, la galería Codex Art nació de un profundo deseo de contribuir activamente al desarrollo de la cultura artística, creando un puente entre el pasado y el presente. Situada en el corazón de la ciudad, se presenta como un lugar de intercambio, descubrimiento y transmisión, dedicado a todos los apasionados del arte, ya sean aficionados curiosos o coleccionistas experimentados. La misión de Codex Art es doble: dar a conocer el arte contemporáneo destacando a artistas emergentes o consolidados, y valorizar el patrimonio artístico exponiendo también obras antiguas, a veces desconocidas para el gran público. A través de este enfoque, la galería permite a cada uno comprender mejor la evolución de los estilos, las técnicas y las sensibilidades artísticas a lo largo de las épocas. Cada exposición está concebida como una invitación a explorar la historia del arte en todas sus formas, tejiendo vínculos entre las obras de ayer y las de hoy. Más que un simple espacio de exposición, Codex Art es un lugar vivo, un cruce cultural donde se encuentran talentos, ideas y miradas, al servicio de la belleza y la reflexión."
+  },
+
+  "galerie": {
+    "exposition": "Exposición",
+    "artiste": "Seleccione su artista"
+  },
+
+  "musées": {
+    "titre": "Museos",
+    "texte": "A veces, basta con abrir una puerta para viajar a través de los siglos. Los museos no son solo lugares estáticos, son ventanas abiertas al mundo, momentos suspendidos donde se aprende, se siente, se maravilla. Salir es regalarse una pausa fuera del tiempo, una respiración cultural. Así que tómate tu tiempo... déjate sorprender, inspírate. El arte solo te espera. Ve al museo...",
+    "recherche": "🔎Búsqueda por departamento"
+  },
+
+  "form": {
+    "contact": "Contacto",
+    "nom": "Apellido",
+    "prénom": "Nombre",
+    "email": "Correo electrónico",
+    "message": "Mensaje",
+    "soumettre": "Enviar"
+  },
+
+  "footer": {
+    "copyright": "© 2025 Codex Art",
+    "mentions_légales": "Aviso legal",
+    "politique_de_confidentialité": "Política de privacidad"
+  }
+}
