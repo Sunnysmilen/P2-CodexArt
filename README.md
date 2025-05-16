@@ -16,7 +16,7 @@ Inspirée par notre passion commune pour l’art, cette application met en avant
 CodexArt a pour objectif de rendre l’art plus accessible, en associant technologie et culture au service d’une expérience enrichissante pour l’utilisateur.
 
 ## Wireframe
-![FIGMA CodexArt](https://github.com/user-attachments/assets/7863105e-3a0e-44ac-b296-7655422c8883)
+![FIGMA CodexArt](https://github.com/user-attachments/assets/0c5c3889-7823-4f97-a494-a8d28276cea5)
 
 ## 🛠️ Installation
 
