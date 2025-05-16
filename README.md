@@ -1,5 +1,5 @@
 # 🖼️CodexArt
-<img src="https://github.com/user-attachments/assets/23439655-678d-4c73-af6c-e0896e32bb01" width="400" height="400" alt="Logo CodexArt">
+<img src="https://github.com/user-attachments/assets/23439655-678d-4c73-af6c-e0896e32bb01" width="100%" alt="Logo CodexArt">
       
 ## Description
 **CodexArt** est une application web développée dans le cadre d’un projet collaboratif suivant l'architecture React du monorepo JS telle qu'enseignée à la **Wild Code School**. 
