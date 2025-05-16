@@ -44,7 +44,7 @@ function Form() {
       .catch((error) => console.error(error));
   }
 
-   const { translations } = useTranslation();
+  const { translations } = useTranslation();
 
   return (
     <form onSubmit={handleSubmit}>

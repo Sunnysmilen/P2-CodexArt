@@ -29,12 +29,12 @@ export type TranslationsType = {
   };
 
   form: {
-contact: string;
-nom: string;
-prénom: string;
-email: string;
-message: string;
-soumettre: string;
+    contact: string;
+    nom: string;
+    prénom: string;
+    email: string;
+    message: string;
+    soumettre: string;
   };
 
   footer: {
