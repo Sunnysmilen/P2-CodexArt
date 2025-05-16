@@ -1,4 +1,12 @@
 # 🖼️CodexArt
+<img src="![logo](https://github.com/user-attachments/assets/d3618667-1581-40e5-a900-121992d21e7f)
+" alt="Logo CodexArt">
+## ☰ Table des Matières
+- [CodexArt](#name)
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Créateurs](#créateurs)
+      
 ## Description
 **CodexArt** est une application web développée dans le cadre d’un projet collaboratif suivant l'architecture React du monorepo JS telle qu'enseignée à la **Wild Code School**. 
 
@@ -7,15 +15,8 @@ Inspirée par notre passion commune pour l’art, cette application met en avant
 CodexArt a pour objectif de rendre l’art plus accessible, en associant technologie et culture au service d’une expérience enrichissante pour l’utilisateur.
 
 
-## ☰Table des Matières
 
-- [CodexArt](#name)
-  - [Table des Matières](#table-des-matières)
-  - [Description](#description)
-  - [Installation](#installation)
-    - [Créateurs](#créateurs)
-
-## 🛠️Installation
+## 🛠️ Installation
 
 1. Clone le dépôt :<br>
  ```
@@ -30,7 +31,7 @@ npm install<br>
 <br>npm run dev 
 
 
-## 👨🏻‍🎨Créateurs 
+## 👨🏻‍🎨 Créateurs 
 - [Nabil](https://github.com/NabilY-5)
  
 - [Gary](https://github.com/gary5907)
