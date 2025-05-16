@@ -16,7 +16,7 @@ CodexArt a pour objectif de rendre l’art plus accessible, en associant technol
 
 ## Installation
 
-1 . Clone le dépôt :
+1 . Clone le dépôt :<br>
      ```
       git clone git@github.com:Sunnysmilen/P2-CodexArt.git
      ```
@@ -25,12 +25,12 @@ CodexArt a pour objectif de rendre l’art plus accessible, en associant technol
      cd {nom_de_fichier_clone} <br>
      npm install
 
-4. Démarrez le client et le serveur :
+4. Démarrez le client et le serveur :<br>
      npm run dev 
 
 
-### 👨🏻‍🎨Créateurs
-- Nabil
-- Gary 
+### 👨🏻‍🎨Créateurs 
+<br>- Nabil
+    - Gary 
 
 
