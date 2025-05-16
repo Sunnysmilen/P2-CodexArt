@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "../styles/form.css";
+import { useTranslation } from "../contexts/LocaleContext";
 
 function Form() {
   const [name, setName] = useState("");
@@ -43,11 +44,13 @@ function Form() {
       .catch((error) => console.error(error));
   }
 
+   const { translations } = useTranslation();
+
   return (
     <form onSubmit={handleSubmit}>
-      <h1>Contact</h1>
+      <h1>{translations.form.contact}</h1>
 
-      <label htmlFor="name">Nom :</label>
+      <label htmlFor="name">{translations.form.nom} :</label>
       <input
         type="text"
         id="name"
@@ -55,7 +58,7 @@ function Form() {
         onChange={(e) => setName(e.target.value)}
       />
 
-      <label htmlFor="firstname">Prénom :</label>
+      <label htmlFor="firstname">{translations.form.prénom} :</label>
       <input
         type="text"
         id="firstname"
@@ -63,7 +66,7 @@ function Form() {
         onChange={(e) => setFirstName(e.target.value)}
       />
 
-      <label htmlFor="email">Email :</label>
+      <label htmlFor="email">{translations.form.email} :</label>
       <input
         type="email"
         id="email"
@@ -71,14 +74,14 @@ function Form() {
         onChange={(e) => setEmail(e.target.value)}
       />
 
-      <label htmlFor="message">Message :</label>
+      <label htmlFor="message">{translations.form.message} :</label>
       <textarea
         id="message"
         value={message}
         onChange={(e) => setMessage(e.target.value)}
       />
 
-      <button type="submit">Soumettre</button>
+      <button type="submit">{translations.form.soumettre}</button>
     </form>
   );
 }
