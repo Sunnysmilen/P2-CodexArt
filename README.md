@@ -20,16 +20,16 @@ CodexArt a pour objectif de rendre l’art plus accessible, en associant technol
 
 ## 🛠️ Installation
 
-1. Clone le dépôt :<br>
+#Clone le dépôt :<br>
  ```
   git clone git@github.com:wildcodeschool-2025-03/JS-RemoteFR-Vert-ASquad-codex-art-P2.git
  ```
    
-2. Installer les dépendances :<br>
+#Installer les dépendances :<br>
 cd {nom_de_fichier_clone} <br>
 npm install<br>
 
-3. Démarrez le client et le serveur :
+#Démarrez le client et le serveur :
 <br>npm run dev 
 
 
