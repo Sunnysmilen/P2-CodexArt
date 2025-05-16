@@ -30,9 +30,9 @@ npm install<br>
 
 
 ### 👨🏻‍🎨Créateurs 
-- Nabil
-  (https:https://github.com/NabilY-5)
-- Gary
-- (https://github.com/gary5907)
+- [Nabil](https://github.com/NabilY-5)
+ 
+- [Gary](https://github.com/gary5907)
+ 
 
 
