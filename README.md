@@ -17,7 +17,7 @@ CodexArt a pour objectif de rendre l’art plus accessible, en associant technol
 ## Installation
 
 1 . Clone le dépôt :
-     ```bash
+     ```
       git clone git@github.com:Sunnysmilen/P2-CodexArt.git
      ```
    
