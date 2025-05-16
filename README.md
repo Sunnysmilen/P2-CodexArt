@@ -10,6 +10,7 @@ CodexArt a pour objectif de rendre l’art plus accessible, en associant technol
 ## Table des Matières
 
 - [CodexArt](#name)
+  -[Description](#description)
   - [Table des Matières](#table-des-matières)
   - [Installation](#installation)
     - [Créateurs](#créateurs)
