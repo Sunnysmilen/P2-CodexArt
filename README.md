@@ -18,7 +18,7 @@ CodexArt a pour objectif de rendre l’art plus accessible, en associant technol
 
 1. Clone le dépôt :<br>
  ```
-  git clone git@github.com:Sunnysmilen/P2-CodexArt.git
+  git clone git@github.com:wildcodeschool-2025-03/JS-RemoteFR-Vert-ASquad-codex-art-P2.git
  ```
    
 2. Installer les dépendances :<br>
