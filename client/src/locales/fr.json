@@ -12,13 +12,23 @@
   },
 
   "galerie": {
-    "exposition": "Exposition"
+    "exposition": "Exposition",
+    "artiste": "Sélectionner votre artiste"
   },
 
   "musées": {
     "titre": "Musées",
     "texte": "Parfois, il suffit de pousser une porte pour voyager à travers les siècles. Les musées ne sont pas que des lieux figés, ce sont des fenêtres ouvertes sur le monde, des instants suspendus où l’on apprend, on ressent, on s’émerveille. Sortir, c’est s’offrir une pause hors du temps, une respiration culturelle. Alors prenez le temps… laissez-vous surprendre, inspirez-vous. L’art n’attend que vous. Allez au musée...",
     "recherche": "🔎Recherche du département"
+  },
+
+  "form": {
+    "contact": "Contact",
+    "nom": "Nom",
+    "prénom": "Prénom",
+    "email": "Email",
+    "message": "Message",
+    "soumettre": "Soumettre"
   },
 
   "footer": {

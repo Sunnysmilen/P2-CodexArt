@@ -19,12 +19,22 @@ export type TranslationsType = {
 
   galerie: {
     exposition: string;
+    artiste: string;
   };
 
   musées: {
     titre: string;
     texte: string;
     recherche: string;
+  };
+
+  form: {
+    contact: string;
+    nom: string;
+    prénom: string;
+    email: string;
+    message: string;
+    soumettre: string;
   };
 
   footer: {

@@ -46,7 +46,7 @@ function cardListOeuvre() {
             )
           }
         >
-          <option value=""> -- Sélectionner votre artiste -- </option>
+          <option value=""> -- {translations.galerie.artiste} -- </option>
           {extractedArts.map((a) => (
             <option key={a} value={a}>
               {" "}
