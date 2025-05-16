@@ -5,6 +5,7 @@
 
 .arts p {
   padding: 1rem;
+  text-align: center;
 }
 
 h2 {
@@ -22,20 +23,6 @@ h2 {
 select {
   border-radius: 5rem;
   padding: 0.4em;
-}
-
-@media screen and (min-width: 768px) and (max-width: 992px) {
-  select {
-    padding: 1em;
-    font-size: 1.1rem;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  select {
-    padding: 1em;
-    font-size: 1.5em;
-  }
 }
 
 .card {
@@ -79,81 +66,149 @@ select {
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-  h2 {
-    font-size: 2rem;
-  }
-  .arts {
-    width: 45%;
-  }
-  .arts h2 {
-    font-size: 1.5rem;
-  }
-
   .arts img {
-    width: 80%;
-    padding: 0.5em;
+    width: 95%;
+    border-radius: 1em;
+    padding-left: 1em;
   }
 
   .arts p {
-    font-size: 1.2rem;
-    padding: 1rem;
+    padding: 0.4rem;
+    font-size: 1.3rem;
     text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem;
   }
   .cards {
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
-    padding: 1rem;
     justify-content: center;
   }
   .filterContainer {
-    display: flex;
-    flex-wrap: wrap;
+    padding-left: 5px;
     width: 100%;
-    padding: 0 4em 0 5em;
   }
 
-  .filterButton {
-    width: 30%;
-    padding: 0.5rem;
-    background-color: #f4a100;
-    font-size: 1rem;
+  select {
+    border-radius: 5rem;
+    padding: 1em;
+    font-size: 1.5rem;
+  }
+  .card {
+    width: 40%;
+  }
+  .card-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+  }
+
+  .card:hover > .card-inner {
+    transform: rotateY(180deg);
+  }
+
+  .arts,
+  .arts-back {
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+  }
+
+  .arts-back {
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 10px;
   }
 }
-@media screen and (min-width: 992px) {
-  .cards {
-    box-sizing: border-box;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
 
-  .arts {
-    display: flex;
-    width: 25%;
-    font-size: 1rem;
-    padding: 1em;
+@media screen and (min-width: 992px) {
+  .arts img {
+    width: 80%;
+    border-radius: 1em;
+    padding-left: 6em;
   }
 
   .arts p {
-    font-size: 1.5rem;
+    padding: 0.4rem;
+    font-size: 1.8rem;
+    text-align: center;
   }
 
   h2 {
     text-align: center;
-    font-size: 2.5rem;
-    padding: 0.5em;
+    font-size: 2rem;
+    padding: 1rem;
   }
-
-  .filterContainer {
-    box-sizing: border-box;
+  .cards {
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
     justify-content: center;
   }
+  .filterContainer {
+    padding-left: 5px;
+    width: 100%;
+  }
 
-  .filterButton {
+  select {
+    border-radius: 5rem;
+    padding: 1em;
     font-size: 1.5rem;
-    width: 20%;
-    padding: 1rem;
+  }
+  .card {
+    width: 30%;
+  }
+  .card-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+  }
+
+  .card:hover > .card-inner {
+    transform: rotateY(180deg);
+  }
+
+  .arts,
+  .arts-back {
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+  }
+
+  .arts-back {
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 10px;
   }
 }

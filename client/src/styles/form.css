@@ -6,15 +6,14 @@ h1 {
 
 label {
   font-weight: bold;
-  margin-top: 5px;
-  padding: 5px;
+  margin: 20px;
 }
 
 input,
 textarea {
   width: 95%;
   padding: 0.8rem;
-  margin-top: 5px;
+  margin: 15px;
   border: 1px solid #ccc;
   border-radius: 10px;
   margin-left: 5px;
@@ -47,6 +46,13 @@ button:hover {
   button {
     width: 45%;
     font-size: 1.2rem;
+  }
+  label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    margin: 5px;
+    font-size: 1.5rem;
   }
 }
 
