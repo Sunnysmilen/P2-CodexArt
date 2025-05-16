@@ -21,8 +21,8 @@ CodexArt a pour objectif de rendre l’art plus accessible, en associant technol
       git clone git@github.com:Sunnysmilen/P2-CodexArt.git
      ```
    
-3. Installer les dépendances :
-     cd {nom_de_fichier_clone}
+3. Installer les dépendances :<br>
+     cd {nom_de_fichier_clone} <br>
      npm install
 
 4. Démarrez le client et le serveur :
