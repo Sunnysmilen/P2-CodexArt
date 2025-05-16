@@ -16,17 +16,17 @@ CodexArt a pour objectif de rendre l’art plus accessible, en associant technol
 
 ## Installation
 
-1 . Clone le dépôt :<br>
-     ```
-      git clone git@github.com:Sunnysmilen/P2-CodexArt.git
-     ```
+1. Clone le dépôt :<br>
+ ```
+  git clone git@github.com:Sunnysmilen/P2-CodexArt.git
+ ```
    
-3. Installer les dépendances :<br>
-     cd {nom_de_fichier_clone} <br>
-     npm install
+2. Installer les dépendances :<br>
+cd {nom_de_fichier_clone} <br>
+npm install
 
-4. Démarrez le client et le serveur :<br>
-     npm run dev 
+3. Démarrez le client et le serveur :<br>
+npm run dev 
 
 
 ### 👨🏻‍🎨Créateurs 
