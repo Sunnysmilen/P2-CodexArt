@@ -7,45 +7,24 @@ Inspirée par notre passion commune pour l’art, cette application met en avant
 CodexArt a pour objectif de rendre l’art plus accessible, en associant technologie et culture au service d’une expérience enrichissante pour l’utilisateur.
 
 
-Il est pré-configuré avec un ensemble d'outils pour aider les étudiants à produire du code de qualité industrielle, tout en restant un outil pédagogique :
-
-- **Concurrently** : Permet d'exécuter plusieurs commandes simultanément dans le même terminal.
-- **Vite** : Alternative à _Create-React-App_, offrant une expérience plus fluide avec moins d'outils.
-- **Biome** : Alternative à _ESlint_ et _Prettier_, assurant la qualité du code selon des règles choisies.
-- **Supertest** : Bibliothèque pour tester les serveurs HTTP en node.js.
-
 ## Table des Matières
 
 - [monorepo-discovery](#name)
   - [Table des Matières](#table-des-matières)
-  - [Installation \& Utilisation](#installation--utilisation)
-  - [Les choses à retenir](#les-choses-à-retenir)
-    - [Commandes de Base](#commandes-de-base)
-    - [Structure des Dossiers](#structure-des-dossiers)
-    - [Contribution](#contribution)
+  - [Installation](#installation)
+    - [Créateurs](#créateurs)
 
 ## Installation
 
 1. Clone le dépôt :
-   git clone 
-3. Installer les dépendances :
-cd {nom_de_fichier_clone}
-4. Démarrez le client et le serveur :
-   npm run dev 
+     git clone git@github.com:Sunnysmilen/P2-CodexArt.git
+   
+2. Installer les dépendances :
+     cd {nom_de_fichier_clone}
+     npm install
 
-## Les choses à retenir
-
-### Commandes de Base
-
-| Commande               | Description                                                                 |
-|------------------------|-----------------------------------------------------------------------------|
-| `npm install`          | Installe les dépendances pour le client et le serveur                       |
-| `npm run db:migrate`   | Met à jour la base de données à partir d'un schéma défini                   |
-| `npm run dev`          | Démarre les deux serveurs (client et serveur) dans un seul terminal         |
-| `npm run check`        | Exécute les outils de validation (linting et formatage)                     |
-| `npm run test`         | Exécute les tests unitaires et d'intégration                                |
-
-
+3. Démarrez le client et le serveur :
+     npm run dev 
 
 
 ### 👨🏻‍🎨Créateurs
