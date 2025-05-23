@@ -51,11 +51,11 @@ Elle permet de découvrir les œuvres depuis une galerie virtuelle, de recherche
   - **Sprint Retrospective** : Rétrospection pour l'amélioration des pratiques de l'équipe 
 
 ## 👨🏻‍🎨 Créateurs 
-- [Nabil](https://github.com/NabilY-5)
+- [Nabil <br><img src="https://avatars.githubusercontent.com/NabilY-5" alt="NabilY-5" width="100" height="100">](https://github.com/NabilY-5)
  
-- [Gary](https://github.com/gary5907)
+- [Gary <br><img src="https://avatars.githubusercontent.com/gary5907" alt="gary5907" width="100" height="100">](https://github.com/gary5907)
 
-- [Nicole](https://github.com/Sunnysmilen)
+- [Nicole <br> <img src="https://avatars.githubusercontent.com/SunnySmilen" alt="SunnySmilen" width="100" height="100">](https://github.com/Sunnysmilen)
  
 
 
